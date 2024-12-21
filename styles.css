@@ -1,0 +1,260 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: poppins, sans-serif;
+}
+
+.border-page {
+  background-color: #3f302b;
+  display: flex;
+}
+
+.wholepage {
+  background-color: #ffefe2;
+  margin: 2rem;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+.shopping {
+  height: 50px;
+  width: 50px;
+}
+
+h3 {
+  display: flex;
+  align-items: center;
+}
+
+.searchbar {
+  display: flex;
+  gap: 5rem;
+}
+
+.searchbar img {
+  height: 2.5rem;
+}
+
+input {
+  border: none;
+  border-radius: 15px;
+  height: fit-content;
+  padding: 10px 10px;
+  box-shadow: 13px 10px 48px 2px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 13px 10px 48px 2px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 13px 10px 48px 2px rgba(0, 0, 0, 0.42);
+}
+
+.shopping {
+  background-color: white;
+  height: fit-content;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 5rem;
+  /* gap: 5rem; */
+}
+
+.writing h1 {
+  width: 15rem;
+}
+
+.writing p {
+  margin-top: 2rem;
+  width: 20rem;
+  font-size: 12px;
+}
+
+.money {
+  display: flex;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.money button {
+  width: 10rem;
+  border-radius: 3rem;
+  border: none;
+  background-color: white;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  box-shadow: 13px 10px 48px 2px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 13px 10px 48px 2px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 13px 10px 48px 2px rgba(0, 0, 0, 0.42);
+}
+
+button img {
+  height: 1rem;
+}
+
+.starbucks-image img {
+  height: 20rem;
+}
+
+.features {
+  margin-left: 0.5rem;
+}
+
+.features img {
+  height: 50px;
+  width: 50px;
+}
+
+.features p {
+  font-size: 12px;
+}
+
+.features h3 {
+  font-size: 18px;
+}
+
+.feature-content {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+  align-items: center;
+}
+
+.logo img {
+  height: 4rem;
+}
+
+.logo {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.bottom-image img {
+  height: 10rem;
+}
+
+.bottom-text p {
+  font-size: 12px;
+}
+
+.bottom-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3f302b;
+  width: 70%;
+  padding: 1rem 0rem;
+  margin-bottom: 5rem;
+  border-radius: 2rem;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.bottom-text {
+  text-align: center;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  text-transform: capitalize;
+  color: white;
+}
+
+.bottom-text h3 {
+  font-size: 15px;
+}
+
+.bottom-text p {
+  font-size: 10px;
+}
+
+.starbucks-image {
+  position: relative;
+}
+
+.starbucks-image img {
+  filter: drop-shadow(4px 4px 2px rgba(0, 0, 0, 0.6));
+  position: relative;
+  z-index: 1;
+}
+
+.circle-image {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 10rem;
+  background-color: #51634b;
+  position: absolute;
+  top: 0;
+  left: -3rem;
+}
+
+.bottom-content {
+  position: relative;
+}
+
+.bottom-content img {
+  position: relative;
+  z-index: 1;
+}
+
+.pink-circle,
+.green-circle,
+.brown-circle {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 5rem;
+  position: absolute;
+  top: 7px;
+}
+
+.brown-circle {
+  background-color: #9a7e4e;
+}
+
+.green-circle {
+  background-color: #738c6c;
+}
+
+.pink-circle {
+  background-color: #ed90d7;
+}
+
+.bottom-text {
+  margin-top: 1rem;
+}
+
+.bottom-box {
+  height: 10rem;
+  align-items: end;
+}
